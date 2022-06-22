@@ -16,6 +16,10 @@ namespace TshirtSpace {
             Debug.Assert(Size(40) == "S");
             Debug.Assert(Size(37) == "M");
             Debug.Assert(Size(30) == "L");
+            // Magic value 38
+            Debug.Assert(Size(38) == "S");
+            Debug.Assert(Size(38) == "M");
+            Debug.Assert(Size(38) == "L");
             Console.WriteLine( "All is well (maybe!)");
         }
     }

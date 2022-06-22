@@ -14,9 +14,13 @@ namespace MisalignedSpace {
             }
             return i * j;
         }
+
         static void Main(string[] args) {
             int result = printColorMap();
-            Debug.Assert(result == 25);
+            // returning anything apart from formatted string does not make sense
+            Debug.Assert(result is string);
+            // The real test must be to check if a particular color pair and number match!
+
             Console.WriteLine("All is well (maybe!)");
         }
     }
