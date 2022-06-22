@@ -1,5 +1,5 @@
 ﻿using System;
-using Sytem.Diagnostics;
+using System.Diagnostics;
 
 namespace AlerterSpace {
     class Alerter {
